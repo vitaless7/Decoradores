@@ -6,8 +6,8 @@ authors = [
     { name = "Felipe Vital" }
 ]
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = ">=3.11,<4.0"
+dependencies = ["loguru (>=0.7.3,<0.8.0)"]
 
 [tool.poetry]
 packages = [{ include = "decoradores" }]
