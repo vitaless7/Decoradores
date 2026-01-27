@@ -1,0 +1,17 @@
+[project]
+name = "decoradores"
+version = "0.1.0"
+description = "Estudos sobre decoradores em Python"
+authors = [
+    { name = "Felipe Vital" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.poetry]
+packages = [{ include = "decoradores" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
